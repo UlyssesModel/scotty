@@ -1,0 +1,25 @@
+{
+  "version": "1.1",
+  "session_id": "7c1c1ff4-0a87-497e-8536-4e3b2f8c1d5f",
+  "session_name": "20260518_203835_scotty-spike",
+  "phase": "GIT",
+  "prompt": "specs/scotty-spike-spec.md — Phase Scotty-A: ACP Client Spike. Build a TypeScript + Bun + Ink TUI that acts as an ACP (Agent Client Protocol) client for Goose. Spawn Goose ACP server as Docker subprocess (docker run -i --rm goose-acp:v1.34.1 acp) via Bun.spawn(); JSON-RPC 2.0 over stdio; send initialize + session/new + session/prompt; render streaming AgentMessageChunk + AgentThoughtChunk + ToolCall + ToolCallUpdate notifications.",
+  "branch": "on-loop/scotty-spike",
+  "worktree_path": ".claude/worktrees/scotty-spike",
+  "session_dir": ".on-loop/sessions/20260518_203835_scotty-spike",
+  "spec_file": "specs/scotty-spike-spec.md",
+  "retries": {
+    "test": 1,
+    "security": 0,
+    "review": 0
+  },
+  "context": {
+    "goose_command_default": "docker run -i --rm goose-acp:v1.34.1 acp",
+    "goose_command_env_var": "SCOTTY_GOOSE_CMD",
+    "goose_protocol_version_observed": 0,
+    "ollama_endpoint": "http://10.128.0.16:11434",
+    "ollama_model": "qwen2.5-coder:32b-instruct",
+    "host_os": "Rocky 9 (glibc/libstdc++ blocks native goose; Docker is the working install path)",
+    "review_policy": "ADR-013 multi-agent face-off"
+  }
+}

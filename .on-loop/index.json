@@ -1,0 +1,16 @@
+{
+  "version": "1.1",
+  "sessions": [
+    {
+      "session_id": "7c1c1ff4-0a87-497e-8536-4e3b2f8c1d5f",
+      "session_name": "20260518_203835_scotty-spike",
+      "session_dir": ".on-loop/sessions/20260518_203835_scotty-spike",
+      "branch": "on-loop/scotty-spike",
+      "worktree_path": ".claude/worktrees/scotty-spike",
+      "spec_file": "specs/scotty-spike-spec.md",
+      "status": "active",
+      "phase": "INIT",
+      "started_at": "2026-05-18T20:38:35Z"
+    }
+  ]
+}
