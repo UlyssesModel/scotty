@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.scotty.log
+.DS_Store
+bun.lockb
+.smoke.tsx
+
+# on-loop SDLC worktrees (temp checkout dirs created by the on-loop pipeline)
+.claude/worktrees/
+
+# Audit trail for on-loop sessions — keep changes.log even though *.log is ignored above
+!.on-loop/sessions/**/changes.log

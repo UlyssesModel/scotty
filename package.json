@@ -1,0 +1,22 @@
+{
+  "name": "scotty",
+  "version": "0.1.0",
+  "description": "Mirepoix TUI — ACP client for air-gapped agentic coding (Phase Scotty-A spike)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun scotty.tsx",
+    "dev": "SCOTTY_DEBUG=1 bun scotty.tsx",
+    "verify": "./verify.sh",
+    "build-check": "bun build --target=bun scotty.tsx --outfile=/dev/null --external=react-devtools-core"
+  },
+  "dependencies": {
+    "ink": "^5.0.1",
+    "ink-text-input": "^6.0.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12"
+  }
+}
