@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(python3 *)",
+      "Bash(bun *)",
+      "Bash(docker *)",
+      "Bash(./verify.sh)",
+      "Bash(./verify-ms6.sh)",
+      "Bash(./verify-protocol.ts)",
+      "Bash(mkdir -p *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(grep *)",
+      "Bash(find * -name *)",
+      "Bash(cp * *)",
+      "Bash(mv * *)",
+      "Bash(rm -rf .claude/worktrees/*)",
+      "Bash(rm /tmp/*)",
+      "Bash(dd if=/dev/urandom *)",
+      "Bash(head /dev/urandom *)",
+      "Bash(cat /dev/urandom *)",
+      "Bash(echo *)",
+      "Bash(sed *)",
+      "Bash(awk *)"
+    ]
+  }
+}
